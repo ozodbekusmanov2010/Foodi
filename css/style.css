@@ -277,7 +277,7 @@ p {
 }
 
 .boa {
-    height: 100vh;
+    height: 110vh;
     background-color: #CFE4D2;
     margin-top: 80px;
 }
@@ -318,6 +318,7 @@ p {
 }
 
 .footer__title {
+    display: flex;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
 }
@@ -328,16 +329,30 @@ p {
     font-weight: 400;
 }
 
-.footer__btn {
-    padding: 8px 30px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-align: right end;
+.footer__emaill {
     display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
 }
 
+.footer__input--email {
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 25px ;
+}
+.email {
+    display: flex;
+    border: none;
+    outline: none;
+}
+
+.footer__qidiruv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #0d9d00;
+    color: white;
+    border-radius: 10px; ;
+}
 .footer__BTN {
     background-color: #195A00;
     padding: 8px 10px;
@@ -357,9 +372,10 @@ p {
 }
 
 .box11 {
+    display: flex;
     font-size: 20px;
     color: #333333;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     margin-top: 10px;
 }
 
@@ -367,13 +383,15 @@ p {
     display: flex;
     width: 100px;
     height: 100px;
-    margin-bottom: 10px;
-    gap: 15px;
+    gap: 20px;
+    margin-right: 200px;
+    margin-top: 20px;
 }
 
 .f {
     width: 108px;
     height: 100px;
+    justify-content: end;
 }
 
 .footer__box2 {
@@ -389,6 +407,18 @@ p {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+}
+.wh {
+    width: 100px;
+    height: 90px;
+}
+.hw {
+    width: 100px;
+    height: 90px;
+}
+.hk {
+    width: 100px;
+    height: 90px;
 }
 
 .h3 {
@@ -421,6 +451,7 @@ p {
 }
 
 .box20__btn {
+    display: flex;
     padding: 10px 50px;
     background-color: #dadada6e;
     border-radius: 20px;
